@@ -1,0 +1,11 @@
+ 
+.footer-list li{
+    list-style-type: none;
+}
+.footer-list li a{
+    text-decoration: none;
+    color: #046164;
+}
+.footer-list li a:hover{ 
+    color: #189ba0; 
+}

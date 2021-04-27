@@ -1,0 +1,24 @@
+.logo-color{
+    color: cadetblue;
+    letter-spacing: 6px;
+}
+.logo-size{ 
+     font-size: 12px;
+}
+nav ul li{
+     padding: 5px;
+     margin-right: 5px;
+     /* transition: 0.5s;  */
+}
+nav ul li:hover{
+    border-top: 2px solid  #C4E0EB ;
+    border-bottom: 2px solid #C4E0EB ;
+}
+nav ul li a{
+    font-weight: 500;
+     
+}
+nav ul li a:hover{
+    background-color: #C4E0EB;
+    transform: scale(1.1);
+}

@@ -1,0 +1,10 @@
+.main-container{
+    /* background-color: rgb(255, 198, 207); */
+    background-image: url(../../../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    
+}
