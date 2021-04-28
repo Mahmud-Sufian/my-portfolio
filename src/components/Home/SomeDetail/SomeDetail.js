@@ -24,7 +24,7 @@ const SomeDetail = () => {
                     <p >Passionate, proficient, and hard-working web developer. Strong knowledge in responsive design with HTML5, CSS3, flexbox, Bootstrap, ES6 JavaScript. I also have solid knowledge working with React, React Router, Node Js, Express js, MongoDB, Firebase, Heroku. committed to make a difference</p>
                     
                     <div className="btn-group py-5"> 
-                    <a href="https://docs.google.com/document/d/15zlfvIRXY4b9oWdtSqu7Q-HFrC0bxXuVPGDnapgzCgI/edit" target="_blank" rel="noopener noreferrer"><button className="btn btn-info">Resume</button></a>
+                    <a href="https://drive.google.com/file/d/13tH2EX9UVS1YGyfRSv6BYPZaky1l1lV8/view" target="_blank" rel="noopener noreferrer"><button className="btn btn-info">Resume</button></a>
                     </div> 
                     
                    </div>
