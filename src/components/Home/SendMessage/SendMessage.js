@@ -1,43 +1,39 @@
+import './SendMessage.css'; 
 import React from 'react';
-import './SendMessage.css';
-import { useForm } from "react-hook-form";
+import emailjs from 'emailjs-com'; 
 
-const SendMessage = () => {
-    const { register, handleSubmit, formState: { errors } } = useForm();
-
-  const onSubmit = data => {
-    if(data){
-      alert("Message Send Successfully"); 
-      document.getElementById('remove1').value = " ";
-      document.getElementById('remove2').value = " ";
-      document.getElementById('remove3').value = " ";
-      // console.log(data)
-    }
-    
-  };
+const SendMessage = () => { 
  
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs.sendForm('service_zk82mhc', 'template_jepu5dc', e.target, 'user_RX7qQckhsjlxLEW6ZjSHW')
+      .then((result) => {
+        alert('Message Send Successfully');
+      }, (error) => {
+        alert(error.text);
+      });
+      e.target.reset();
+  }
 
 
 
-    return (
+    return ( 
+
         <div className="container py-5">
-            <h2 className="text-center py-3">Send Me Your Message</h2>
-            <form onSubmit={handleSubmit(onSubmit)}> 
-        
-                <input id="remove1" className="form-control" {...register("name", { required: true })}  placeholder="Your Name"/> 
-                {errors.name && <span className="text-danger">This name is required</span>}
+          <h2 className="text-center py-3">Send Me Your Message</h2>
+            <form className="contact-form" onSubmit={sendEmail}>  
+                <input className="form-control" type="text" name="name"  placeholder="Your Name" /> 
                 <br/>
-                <input id="remove2" className="form-control" {...register("email", { required: true })}  placeholder="Your Email"/> 
-                {errors.email && <span className="text-danger">This email is required</span>}
+                <input className="form-control" type="email" name="email"  placeholder="Your Email" /> 
                 <br/>
-                <textarea id="remove3" className="form-control" name="message" cols="30" rows="10" {...register("message", { required: true })}  placeholder="Your Message">
-                
-                </textarea>
-                {errors.message && <span className="text-danger">This Message is required</span>}
+                <textarea className="form-control" name="message" cols="8" rows="12" placeholder="Your Message" />
                 <br/>
-                <button className="btn btn-info">Send</button>
+                <input className="btn btn-primary" type="submit" value="Send" />
             </form>
         </div>
+ 
+
     );
 };
 

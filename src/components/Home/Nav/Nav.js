@@ -29,7 +29,7 @@ const Nav = () => {
           <Link className="nav-link" to="/about">About</Link>
         </li>
         <li className="nav-item">
-        <a href="https://drive.google.com/file/d/13tH2EX9UVS1YGyfRSv6BYPZaky1l1lV8/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Resume</button></a>
+        <a href="https://drive.google.com/file/d/1Xxx5Bd5jtGgoqKNDS2SPZD1q_-qGB1Bm/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Resume</button></a>
         </li>
          
       </ul>

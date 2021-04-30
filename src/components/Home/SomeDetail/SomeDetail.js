@@ -2,7 +2,6 @@ import React from 'react';
 import './SomeDetail.css';
 import myPic from '../../../images/myPic.png';
 import Typical from 'react-typical';
- 
 
 const SomeDetail = () => {
     return (
@@ -24,7 +23,7 @@ const SomeDetail = () => {
                     <p >Passionate, proficient, and hard-working web developer. Strong knowledge in responsive design with HTML5, CSS3, flexbox, Bootstrap, ES6 JavaScript. I also have solid knowledge working with React, React Router, Node Js, Express js, MongoDB, Firebase, Heroku. committed to make a difference</p>
                     
                     <div className="btn-group py-5"> 
-                    <a href="https://drive.google.com/file/d/13tH2EX9UVS1YGyfRSv6BYPZaky1l1lV8/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button className="btn btn-info">Resume</button></a>
+                    <a href="https://drive.google.com/uc?export=download&id=1Xxx5Bd5jtGgoqKNDS2SPZD1q_-qGB1Bm" target="_blank" rel="noopener noreferrer"><button className="btn btn-info">Download Resume</button></a>
                     </div> 
                     
                    </div>
