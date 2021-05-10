@@ -6,7 +6,7 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import FacebookIcon from '@material-ui/icons/Facebook'; 
 import AboutFooter from '../AboutFooter/AboutFooter';
-import aboutPic from '../../../images/aboutMyPic.png';
+import myPic from '../../../images/zihad-crop.png';
 
 const Bio = () => {
     return (
@@ -41,7 +41,7 @@ const Bio = () => {
                     
                 </div>
                 <div className="col-md-6 col-sm-12">
-                   <img style={{height:'550px', width:'550px'}} className="img-fluid" src={aboutPic} alt=""/>
+                   <img style={{height:'500px'}} className="img-fluid pl-5" src={myPic} alt=""/>
                 </div>
             </div>
 

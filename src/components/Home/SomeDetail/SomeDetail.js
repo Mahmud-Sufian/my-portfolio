@@ -1,6 +1,6 @@
 import React from 'react';
 import './SomeDetail.css';
-import myPic from '../../../images/myPic.png';
+import myPic from '../../../images/zihad-crop.png';
 import Typical from 'react-typical';
 
 const SomeDetail = () => {
@@ -11,7 +11,7 @@ const SomeDetail = () => {
                     <img style={{height:'500px'}} className="img-fluid" src={myPic} alt=""/>
                 </div>
                 <div className="col-md-6 col-sm-12 d-flex align-self-center py-5">
-                   <div>
+                   <div className="pt-5">
                    <h3><span className="highLight"> Hi, I am </span> <br/> Mahmud Sufian</h3>
                     <h2 className="highLight">
                     <Typical
